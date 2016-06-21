@@ -1,0 +1,14 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "repository": "private",
+  "scripts": {},
+  "keywords": [],
+  "author": "🍔 hamizmz",
+  "license": "ISC",
+  "dependencies": {
+    "terminal-kit": "^0.24.9"
+  }
+}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./clean
+sudo docker run --name "output-container" -it -P -v "$(pwd)/../application":"/usr/local/output" "output-image" /bin/bash
