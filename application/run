@@ -3,4 +3,7 @@
 echo "Compiling JavaScript..."
 tsc --pretty -w -p . &
 sleep 2.5
+
+cat LOGO2 | lolcat
+
 nodemon --watch build ./build/main.js

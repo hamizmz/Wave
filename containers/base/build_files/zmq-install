@@ -1,0 +1,19 @@
+#!/bin/bash
+
+sudo apt-get install -y libtool pkg-config build-essential autoconf automake uuid-dev
+
+cd "$1"
+tar zxvf libsodium.tar.gz
+
+cd libsodium-1.0.10
+./configure
+make && make check
+sudo make install
+
+cd ..
+tar zxvf zeromq-4.1.5.tar.gz
+
+cd zeromq-4.1.5
+./configure && make
+sudo make install
+sudo ldconfig

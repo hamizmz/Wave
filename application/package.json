@@ -9,6 +9,9 @@
   "author": "🍔 hamizmz",
   "license": "ISC",
   "dependencies": {
-    "terminal-kit": "^0.24.9"
+    "express": "^4.14.0",
+    "socket.io": "^1.4.6",
+    "terminal-kit": "^0.24.9",
+    "zmq": "^2.15.3"
   }
 }

@@ -1,5 +1,3 @@
-# Wave
-
 		     .                          l,                'WMk.        cXMMN.        .       
 		    lWMK.          .            0MMK,       dWX0d  ;MMMW,     'KMMMMMoldk0XNWMMM0.    
 		    kMMMMMk        lWNx.        OMMMMW'  ,:dNMMMMMc .MMMM0    dMMMMMMMMMMMMMMMMMMK.    
@@ -16,3 +14,4 @@
 		 :KMMMMMW0l.        dMMMMMWd.                                                         
 		  .;:,.             .odl:                                                            
 
+## Created by: Graham Robertson

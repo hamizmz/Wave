@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if sudo docker rm "wave-$1-container" > /dev/null; then
+	printf "Previous container removed.\n"
+else
+	printf "No previous container.\n"
+fi
+
+printf "🐳  Starting $1 container\n"
+
+sudo docker run --name "wave-$1-container" -P -v "$(pwd)/../../application":"/usr/local/wave" -it wave-$1-image

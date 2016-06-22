@@ -41,7 +41,7 @@ echoln "\e[0m"
 }
 
 function welcome() {
-echoln "\e[1;32mFollow the white rabbit.\e[0m"
+echoln "\e[1;37m🐇 \e[1;32mFollow the white rabbit.\e[0m"
 echoln ""
 }
 
@@ -55,6 +55,7 @@ info
 
 ########################################
 # ADD YOUR JUNK HERE:
+echoln "Passed Arguments: $@"
 #
 ########################################
 
@@ -62,4 +63,6 @@ info
 welcome && bash
 }
 
-__main__
+echoln "ANYTHING?: $1"
+
+__main__ $@
