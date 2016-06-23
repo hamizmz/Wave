@@ -55,14 +55,19 @@ info
 
 ########################################
 # ADD YOUR JUNK HERE:
-echoln "Passed Arguments: $@"
+
+welcome
+sleep 1
+
+if [ "$1" == "" ]; then
+	# Base system... we'll use the to compile our typescript:
+	./run --watch
+else
+	./run
+fi
+
 #
 ########################################
-
-# BASH prompt:
-welcome && bash
 }
 
-echoln "ANYTHING?: $1"
-
-__main__ $@
+__main__ $1

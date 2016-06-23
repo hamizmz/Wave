@@ -47,6 +47,6 @@ RUN ln -s /usr/games/lolcat /usr/bin/lolcat
 
 ########################################
 # CLEAN-UP:
-#RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ########################################

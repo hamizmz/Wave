@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo "Compiling JavaScript..."
-tsc --pretty -w -p . &
-sleep 2.5
+if [ "$1" == "--watch" ]; then
+	echo "Compiling JavaScript..."
+	tsc --pretty -w -p . &
+	sleep 2.5
+fi
 
 cat LOGO2 | lolcat
 
